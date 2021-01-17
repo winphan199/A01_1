@@ -6,9 +6,9 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include "A01_1FuncLib.hpp"
+int main(int argc, const char * argv[])
+{
+    gameLoop();
     return 0;
 }
